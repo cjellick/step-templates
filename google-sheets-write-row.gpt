@@ -1,0 +1,14 @@
+name: Google Sheets - Write a Row
+description: Write a row to a Google Sheet
+params: URL: The URL of the Google Sheet
+params: Data: Describe the data you want to write to the Google Sheet
+share tool: 
+type: input
+
+#!/bin/bash
+
+cat << EOF
+
+Write a new row to this google sheet: ${URL}. Read the sheet first to understand the columns. Write the following data: ${DATA}.
+
+EOF
