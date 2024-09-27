@@ -9,6 +9,7 @@ type: input
 
 cat << EOF
 
-Write a new row to this google sheet: ${URL}. Read the sheet first to understand the columns. Write the following data: ${DATA}. To ensure the row gets written correclty, wrap every cell in double quotes.
+Access the Google Sheet at the following URL: ${URL}. First, read the sheet to understand the column structure and existing data format. Then, append a new row using the provided data: ${DATA}. To ensure accurate entry, wrap each cell value in double quotes before writing to the sheet. Confirm that the row aligns correctly with the column headers.
+
 
 EOF
