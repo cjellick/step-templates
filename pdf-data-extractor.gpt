@@ -9,6 +9,8 @@ type: input
 
 cat << EOF
 
-Use OCR to read ${PDF} to extract ${DATA}.
+Perform OCR to extract text from the PDF specified within these <input> tags: <input>${PDF}</input>. If the <input>${PDF}</input> is empty, refer to your history to select the most relevant PDF file for extraction. 
+
+Extract the data specified within these <input> tags: <input>${DATA}</input>. If <input>${DATA}</input> is empty, use your history to identify and extract the most relevant data from the PDF. Ensure that the extracted data is complete and accurately represents the most important content from the PDF.
 
 EOF
