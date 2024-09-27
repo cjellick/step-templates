@@ -9,6 +9,6 @@ type: input
 
 cat << EOF
 
-Write a new row to this google sheet: ${URL}. Read the sheet first to understand the columns. Write the following data: ${DATA}.
+Write a new row to this google sheet: ${URL}. Read the sheet first to understand the columns. Write the following data: ${DATA}. To ensure the row gets written correclty, wrap every cell in double quotes.
 
 EOF
