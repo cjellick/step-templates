@@ -1,6 +1,6 @@
 name: PDF Data Extractor
 description: Extract data from a PDF
-params: File Location: The file location of the PDF.
+params: PDF: The PDF to extract data from.
 params: Data: The data to extract from the pdf
 share tool:  github.com/gptscript-ai/pdf-tool/openai
 type: input
@@ -9,6 +9,6 @@ type: input
 
 cat << EOF
 
-Use OCR to read the pdf at ${FILE_LOCATION} to extract ${DATA}.
+Use OCR to read ${PDF} to extract ${DATA}.
 
 EOF
